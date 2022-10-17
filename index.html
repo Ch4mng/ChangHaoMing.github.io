@@ -12,12 +12,13 @@
         background-position: center center;
         position:absolute;
         width: 100%;
-        height: 1300px;
+        height: 2400px;
         justify-content: center;
+
       }
 
       .text{
-        padding-top: 420px;
+        padding-top: 200px;
         text-align: center;
         font-weight: bolder;
         font-family: 'Courier New', Courier, monospace;
@@ -39,8 +40,9 @@
 
       .card{
           justify-content: center;
-          background-color: black;
+          background-color: rgba(0, 0, 255, 0.324);
           color: white;
+          font-size: 20px;
       }
 
       .container{
@@ -78,19 +80,22 @@
     
   
   <div class="container-fluid" id="background">
-     <h1 class="text" style="color:black;">Hi, I'm <span class="auto-type" style="color:green;"></span></h1>
+     <h1 class="text" style="color:white;">Hi, I'm <span class="auto-type" style="color:greenyellow;"></span></h1>
   </div>
 
   <div class="container">
     <div class="row d-flex flex-wrap align-items-center" >
       <div class="card text-center" >
-        <div class="imgbox">
+        <div class="imgbox" id="aboutme">
           <img class="profilepic" src="img/profile_pic.jpeg" width="150" height="250">
         </div>
         
-        <div class="card-body"  id="aboutme">
+        <div class="card-body">
           <h2>About Me</h2>
-          <p class="card-text">I'm a Year 2 IS student with a huge passion for tech. Currently I am picking up the fundamentals of web development and learning HTML, CSS and Javascript. As for backend, I have dabbled with databases using MySQL in my previuos internship and solve coding questions with primarily pyhton.</p>
+          <p class="card-text">I'm currently picking up the fundamentals of web development and learning HTML, CSS and Javascript. I have experience managing database using MySQL in my previuos internship as well as some knowledge about php. However, my strongest programming language is pyhton.</p><br>
+          <iframe width=100% height="500"
+          src="https://www.youtube.com/embed/nLeiVZ9BDKA">
+          </iframe>
         </div>
       </div>
     </div> 
